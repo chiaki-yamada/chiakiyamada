@@ -4,7 +4,7 @@ body {
 }
 
 h2 {
-  font-family: 'Bodoni Moda';work
+  font-family: 'Bodoni Moda';
   font-size: 1.25rem;
 }
 h3 {
@@ -71,6 +71,4 @@ section {
   text-align: center;
   padding: 5%;
 }
-.row img {
-  
-}
+
