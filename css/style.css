@@ -71,4 +71,15 @@ section {
   text-align: center;
   padding: 5%;
 }
+.card {
+  margin-bottom: 15px;
+}
+.btn {
+  background-color: #83C2C7;
+  color: #ffff;
+}
+.btn:hover {
+  background-color: #8BA6CF;
+  color: #ffff;
+}
 
