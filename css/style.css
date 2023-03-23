@@ -13,6 +13,16 @@ h3 {
 p {
   font-size: 0.75rem;
 }
+main, footer {
+  padding: 0% 8%;
+}
+.title {
+  text-align: center;
+  margin-top: 10px;
+  border-top: .2px solid #565555;
+  border-bottom: .2px solid #565555;
+  padding: 10px;
+}
 
 /* -------- heaer ------------ */
 .header {
@@ -35,22 +45,12 @@ nav ul {
   padding-left: 0;
 }
 
-/* -------main ------------- */
-main {
-  padding: 5% 8%;
-}
 
-/* ------- about ------------- */
+/* ------- main-about ------------- */
 section {
   margin-bottom: 20px;
 }
-.item {
-  text-align: center;
-  margin-top: 10px;
-  border-top: .2px solid #242424;
-  border-bottom: .2px solid #242424;
-  padding: 10px;
-}
+
 .bio-photo{
   width: 50%;
   height: auto;
@@ -65,7 +65,7 @@ section {
   
 }
 
-/* ------- works ------------- */
+/* ------- main-works ------------- */
 .works-text {
   word-wrap: break-word;
   text-align: center;
@@ -83,3 +83,24 @@ section {
   color: #ffff;
 }
 
+/* --------- footer --------- */
+footer img {
+  width: 15px;
+  height: auto;
+}
+
+footer .container {
+  margin-top: 20px;
+}
+
+
+.social-media img{
+  width: 20px;
+  height: auto;
+  margin: 0 5px;
+}
+.social-media {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
