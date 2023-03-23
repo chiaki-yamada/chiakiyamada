@@ -30,10 +30,13 @@ main, footer {
   background-size: cover;
   width: 100%;
 }
-.header-text {
+.header-nav, .header-title  {
   font-family: 'Bodoni Moda';
   color: #ffff;
   padding: 5% 8%;
+}
+.header-title h1{
+  line-height: 0.5em;
 }
 li {
   list-style: none;
