@@ -1,33 +1,62 @@
 body {
   box-sizing: border-box;
+  font-family: serif;
+  font-size: 0.75rem;
 }
+
 /* -------- heaer ------------ */
-.header-img {
+.header {
   background-image: url("file:///Users/chiaki/Desktop/header.jpg");
   background-size: cover;
   width: 100%;
-  height: 250px;
+}
+.header-text {
+  font-family: 'Bodoni Moda';
+  color: #ffff;
+  padding: 5% 8%;
 }
 li {
   list-style: none;
- 
-  
+  margin-right: 8%;
+  font-family: serif;
 }
-.header {
-  color: #ffff;
-}
-  
-.header h1, h2 {
-  text-align: center;
-}
-.about {
-  text-align: center;
-  margin-top: 30px;
+nav ul {
+  display: flex;
+  padding-left: 0;
 }
 
+/* -------main ------------- */
+main {
+  padding: 5% 8%;
+}
 
+/* ------- about ------------- */
+.section {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Bodoni Moda';
+  border-top: .2px solid #242424;
+  border-bottom: .2px solid #242424;
+  padding: 10px;
+}
 .bio-photo{
-  width: 60%;
+  width: 50%;
   height: auto;
+}
+.bio-text {
+  word-wrap: break-word;
+  text-align: left;
+}
+.container {
+  margin-bottom: 10px;
+  color: #565555;
+}
+
+/* ------- works ------------- */
+.works-text {
+  word-wrap: break-word;
+  text-align: center;
+  padding: 5%;
+
 }
 
