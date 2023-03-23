@@ -115,6 +115,7 @@ nav ul {
   text-align: center;
 }
 
+
 /* --------- media query --------- */
 @media (min-width: 768px) {
   .title {
@@ -151,5 +152,5 @@ nav ul {
     width: 70%;
     margin: auto;
   }
-  
+
 }
