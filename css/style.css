@@ -19,6 +19,9 @@ main, footer {
 a {
   color: #8BA6CF;
 }
+li {
+  list-style: none;
+}
 .title {
   text-align: center;
   margin-top: 5%;
@@ -54,13 +57,15 @@ section:first-child {
 .header-title h1{
   line-height: 0.5em;
 }
-li {
+.header-nav a {
+  color: #ffff;
   list-style: none;
   margin-right: 8%;
   font-family: serif;
 }
-li:hover {
+.header-nav a:hover {
   color: #565555;
+  text-decoration: none;
 }
 nav ul {
   display: flex;
@@ -80,7 +85,9 @@ nav ul {
 .container {
   margin-bottom: 10px;
   color: #565555;
-  
+}
+.row {
+  align-items: flex-end;
 }
 
 /* ------- main-works ------------- */

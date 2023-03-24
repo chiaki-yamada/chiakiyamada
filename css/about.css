@@ -1,0 +1,26 @@
+.about-text {
+  word-wrap: break-word;
+  text-align: left;
+}
+
+
+/*  main-top */
+.row h1 {
+  color: black;
+}
+.col-sm-5 {
+  text-align: left;
+  line-height: 1px;
+}
+
+/* main-skill */
+.skill ul {
+  padding-left: 5%;
+}
+.skill li {
+  font-size: 0.75rem;
+  text-align: left;
+  align-items: left; 
+  list-style: circle;
+  padding-left: 3px;
+}
