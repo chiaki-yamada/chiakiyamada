@@ -39,10 +39,16 @@ section:first-child {
   background-size: cover;
   width: 100%;
 }
-.header-nav, .header-title  {
+.header-nav {
   font-family: 'Bodoni Moda';
   color: #ffff;
   padding: 5% 8%;
+}
+.header-title {
+  font-family: 'Bodoni Moda';
+  color: #ffff;
+  padding: 5% 8% 15% 8%;
+
 }
 .header-title h1{
   line-height: 0.5em;
