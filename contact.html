@@ -36,13 +36,13 @@
   <!--   main   -->
   <main>
     <h2 class="title">Contact</h2>
-    <form action="index.html" method="'post" class="form">
+    <form action="mailto:jian88.c26@gmail.com" method="'post" class="form">
       <!-- name -->
       <div class="contact-name">
         <label for="name" id="name" name="user_name">Name:</label><br>
         <div class="name">
-          <input class="first-name" type="text" id="name1" name="user_name" placeholder="First Name">
-          <input  class="last-name" type="text" id="name2" name="user_name" placeholder="Last Name">
+          <input class="first-name" type="text" id="name1" name="user_name" placeholder="First Name" required >
+          <input  class="last-name" type="text" id="name2" name="user_name" placeholder="Last Name" required >
         </div>
         
       </div>
@@ -50,13 +50,13 @@
       <!-- email -->
       <div class="contact-email">
         <label for="email" id="email" name="user_email">Email:</label><br>
-        <input type="email" id="emailaddress" name="user_email">
+        <input type="email" id="emailaddress" name="user_email" required >
       </div>
 
       <!-- message -->
       <div class="contact-message">
         <label for="message" id="message" name="user_message">Message:</label><br>
-        <textarea name="message" id="messageform" cols="30" rows="5"></textarea>
+        <textarea name="message" id="messageform" cols="30" rows="5" required ></textarea>
       </div>
       
 
