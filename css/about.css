@@ -10,12 +10,6 @@
 }
 .col-sm-5 {
   text-align: left;
-  display: flex;
-  justify-content: space-around; 
-}
-.col-sm-5 img {
-  width: 40%;
-  height: auto;
 }
 .bio-text {
   margin: 0;
@@ -39,6 +33,9 @@
   text-align: center;
   margin-top: 1.5rem;
 }
+.edu-items p {
+  margin-bottom: 40px;
+}
 
 /* main-skill */
 .skill ul {
@@ -51,12 +48,6 @@
   list-style: circle;
   padding-left: 3px;
 }
-.skill {
-  display: flex;
-  justify-content: center;
-}
-
-
 
 @media (min-width: 768px) {
   .col-sm-5 h1 {
@@ -70,12 +61,6 @@
   .col-sm-5 img {
     width: 60%;
     margin-top: 30px;
-  }
-  
-  .edu-items {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px;
   }
 
 }
@@ -95,9 +80,6 @@
 }
 
 @media (min-width: 1280px) {
-  .col-sm-7 {
-    margin-top: auto;
-  }
   .col-sm-5 h1 {
     font-size: 4rem;
   }
