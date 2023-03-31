@@ -44,7 +44,6 @@
 .skill li {
   font-size: 0.75rem;
   text-align: left;
-  align-items: left; 
   list-style: circle;
   padding-left: 3px;
 }
